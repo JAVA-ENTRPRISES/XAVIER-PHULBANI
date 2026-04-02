@@ -24,7 +24,7 @@
         position: absolute;
         width: 0%;
         height: 2px;
-        background: #2563eb;
+        background: #07286d;
         left: 50%;
         bottom: -5px;
         transition: 0.3s;
@@ -32,6 +32,13 @@
       }
 
       .nav-link:hover::after {
+        width: 100%;
+      }
+      .nav-link.active {
+        color: #07286d;
+        font-weight: 700;
+      }
+      .nav-link.active::after {
         width: 100%;
       }
     </style>
@@ -45,7 +52,7 @@
       >
         <!-- LEFT LOGO -->
         <div class="flex items-center gap-3">
-          <img src="images/logox2.png" class="h-12 w-48" />
+          <img src="images/logox2.png" class="h-12 w-46" />
           <!-- <h1 class="text-lg font-bold text-blue-900">ST XAVIER SCHOOL</h1> -->
         </div>
 
